@@ -20,7 +20,7 @@ const ResponsiblePersonAndDuties = () => {
             </div>
 
             <div className={` pt-5 d-flex flex-column gap-3 ${styles.support} `}>
-               
+
                 <span style={{ fontSize: '14px' }}>If some parts of the building are not under the employer&apos;s control, for example, if the workplace is shared with other people, the employer should be informed</span>
                 <span style={{ fontSize: '14px' }}>In the areas they control, the person who has control (landlord, owner, employer etc) or has the responsibility to ensure compliance with the Fire Safety Order may require communication and cooperation between all parties in order to ensure fire safety provisions, firefighting measures, evacuation procedures, etc</span>
             </div>
@@ -30,12 +30,12 @@ const ResponsiblePersonAndDuties = () => {
 
             <div className="pt-5 text-center">
                 <p className='fw-bold'>We carry BAFE accreditations, IS09001, hold FIA and FPA memberships and are members of the National <br /> Association of Fire Door Inspectors, so you can be sure that you are in safe hands</p>
-                <p  style={{ fontSize: '14px' }}>Red Fire Safety is confident we can help you regardless of how many sites you manage</p>
-                <p  style={{ fontSize: '14px' }}>Find out more on our company and our Weekly / Monthly attendance visits by calling <span style={{color:'#C32128', fontWeight:'bold'}}>01689 493 641</span> or email <span style={{color:'#C32128', fontWeight:'bold'}}>info@redfiresafety.com</span> today.</p>
+                <p style={{ fontSize: '14px' }}>Red Fire Safety is confident we can help you regardless of how many sites you manage</p>
+                <p style={{ fontSize: '14px' }}>Find out more on our company and our Weekly / Monthly attendance visits by calling <span style={{ color: '#C32128', fontWeight: 'bold' }}>01689 493 641</span> or email <span style={{ color: '#C32128', fontWeight: 'bold' }}>info@redfiresafety.com</span> today.</p>
             </div>
 
             <div className="pt-5">
-            <Anniversary/>
+                <Anniversary />
 
             </div>
         </>

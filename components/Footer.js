@@ -1,6 +1,8 @@
+import { useRouter } from 'next/router'
 import React from 'react'
 import styles from '../styles/Footer.module.css'
 const Footer = () => {
+    const router = useRouter();
     return (
         <>
             <div className={`gap-4 ${styles.logosContainer}`}>
@@ -33,19 +35,19 @@ const Footer = () => {
                         </div>
                         <div className="col-md-4 d-flex w-50" style={{gap:'20%'}}>
                             <div className='d-flex flex-column gap-3'>
-                                <span>Home</span>
-                                <span>Privacy Policy</span>
-                                <span>Contact Us</span>
+                                <span style={{cursor:'pointer'}} onClick={()=>{router.push('/')}}>Home</span>
+                                <span style={{cursor:'pointer'}}>Privacy Policy</span>
+                                <span style={{cursor:'pointer'}} onClick={()=>{router.push('/contact')}}>Contact Us</span>
                             </div>
                             <div className='d-flex flex-column gap-3'>
-                                <span>Site Map</span>
-                                <span>Site Map</span>
-                                <span>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
                             </div>
                             <div className='d-flex flex-column gap-3'>
-                                <span>Site Map</span>
-                                <span>Site Map</span>
-                                <span>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Site Map</span>
                             </div>
                         </div>
                         <div className="col-md-4 d-flex flex-column gap-1 w-25">

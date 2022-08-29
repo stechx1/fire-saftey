@@ -3,8 +3,10 @@ import Image from 'next/image'
 import Anniversary from '../components/Anniversary'
 import Featurebox from '../components/Featurebox'
 import styles from '../styles/Home.module.css'
+import { useRouter } from 'next/router'
 
 export default function Home() {
+  const router = useRouter();
   return (
     <>
       <div className={styles.homeContainer}>
@@ -40,17 +42,17 @@ export default function Home() {
           <div className="d-flex flex-column align-items-center text-center gap-3 px-5">
             <img src="/Images/Features/Fire assessment 1.png" alt="Fire1" className='img-fluid' width={60} height={90} />
             <span className={styles.FeaturesHeading}>Fire Door Inspection & <br /> Maintenance</span>
-            <a className={styles.FeaturesLink}> Find out more</a>
+            <a className={styles.FeaturesLink} onClick={()=>{router.push('/features/fire-door-inspection')}}> Find out more</a>
           </div>
           <div className="d-flex flex-column align-items-center text-center gap-3 px-5">
             <img src="/Images/Features/Fire Alaram servicing 1.png" alt="Fire1" className='img-fluid' width={90} height={90} />
             <span className={styles.FeaturesHeading}>Fire Alarm Servicing, <br /> Installation, Design & <br /> Maintenance</span>
-            <a className={styles.FeaturesLink}> Find out more</a>
+            <a onClick={()=>{router.push('/features/fire-alarm-services')}} className={styles.FeaturesLink}> Find out more</a>
           </div>
           <div className="d-flex flex-column align-items-center text-center gap-3 px-5">
             <img src="/Images/Features/Fire Extinguisher 1.png" alt="Fire1" className='img-fluid' width={50} height={50} />
             <span className={styles.FeaturesHeading}>Fire Extinguisher <br /> Servicing & <br /> Maintenance</span>
-            <a className={styles.FeaturesLink}> Find out more</a>
+            <a className={styles.FeaturesLink} onClick={()=>{router.push('/features/fire-extinguisher-services')}}> Find out more</a>
           </div>
         </div>
       </div>

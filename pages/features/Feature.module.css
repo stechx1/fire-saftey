@@ -1,0 +1,26 @@
+.pHeading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 63px;
+}
+.secHeading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.mainContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 45px auto;
+    gap: 45px;
+}
+.smallpara{
+    font-size: 14px;
+}
+.support{
+    width: 32%;
+    margin-left: 9.5%;
+}

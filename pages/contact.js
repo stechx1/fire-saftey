@@ -8,9 +8,9 @@ const Contact = () => {
             <div className='text-center d-flex flex-column py-5'>
                 <span className={styles.pHeading}>Contact Us</span>
                 <span>Contact us for a quote or join us</span>
-                <div className='d-flex gap-2 justify-content-center  '>
-                    <i className="fa fa-instagram fs-3" aria-hidden="true"></i>
-                    <i className="fa fa-linkedin-square fs-3" aria-hidden="true"></i>
+                <div className='d-flex gap-2 justify-content-center  ' >
+                    <i style={{cursor:'pointer'}} className="fa fa-instagram fs-3" aria-hidden="true"></i>
+                    <i style={{cursor:'pointer'}} className="fa fa-linkedin-square fs-3" aria-hidden="true"></i>
                 </div>
             </div>
             <div className='container d-flex justify-content-between  py-5'>

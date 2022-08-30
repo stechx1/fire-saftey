@@ -29,8 +29,8 @@ const FireStopping = () => {
 
             <div className={` pt-5 d-flex flex-column gap-3 ${headingStyles.support} `}>
                 <h1 className='fw-bold fs-2'>What is Fire Compartmentation?</h1>
-                <span>Fire compartments are parts of buildings consisting of one or more rooms, floors, or spaces that are designed and constructed to prevent fire from spreading from one area of a building to another. Different parts of a building can be compartmentalized by using compartmentation walls and floors. A vertical plane should run through the entire height of the compartmentation walls.</span>
-                <span>Compartmentation is the process of subdividing a building into a number of distinct fire compartments. In dividing a building into different sections, you prevent the spread of fire across the entire building.</span>
+                <span className={headingStyles.smallpara}>Fire compartments are parts of buildings consisting of one or more rooms, floors, or spaces that are designed and constructed to prevent fire from spreading from one area of a building to another. Different parts of a building can be compartmentalized by using compartmentation walls and floors. A vertical plane should run through the entire height of the compartmentation walls.</span>
+                <span className={headingStyles.smallpara}>Compartmentation is the process of subdividing a building into a number of distinct fire compartments. In dividing a building into different sections, you prevent the spread of fire across the entire building.</span>
             </div>
 
             <div className="pt-2">

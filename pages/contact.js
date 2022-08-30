@@ -13,7 +13,7 @@ const Contact = () => {
                     <i style={{cursor:'pointer'}} className="fa fa-linkedin-square fs-3" aria-hidden="true"></i>
                 </div>
             </div>
-            <div className='container d-flex justify-content-between  py-5'>
+            <div className={`container d-flex justify-content-between  py-5 ${styles.imgContainer} `}>
                 <div className="d-flex flex-column align-items-center text-center px-5">
                     <img src="/Images/Contact/Group 1.png" alt="Fire1" className='img-fluid' width={60} height={90} />
                     <h3 className={`${styles.secHeading} mt-3`}>Address</h3>

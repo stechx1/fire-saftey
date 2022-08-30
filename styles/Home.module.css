@@ -43,4 +43,18 @@
 }
 .FeaturesLink:hover{
   color: black;
+}@media(max-width:800px){
+  .FeatureContainer{
+    flex-direction: column;
+  }
+}
+
+@media(max-width:552px){
+  .primaryHeading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  
 }

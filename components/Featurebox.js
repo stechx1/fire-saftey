@@ -3,8 +3,8 @@ import styles from '../styles/FeatureBox.module.css'
 const Featurebox = ({ secHeading, pHeading, paras, image, reverse, points }) => {
   return (
     <>
-      <div className={`container ${reverse ? 'flex-row-reverse' : ''} ${styles.mainContainer} `}>
-        <div className={`left w-${points.length !== 0 ? '100' : '75'} d-flex flex-column gap-3 px-3`}>
+      <div className={`container ${reverse && 'flex-xl-row-reverse flex-xxl-row-reverse'} ${styles.mainContainer} `}>
+        <div className={`${styles.left} ${points.length !== 0 ? styles.full : styles.half} d-flex flex-column gap-3 px-3`}>
           {pHeading !== '' && <h1 className={styles.pHeading}>{pHeading}</h1>}
           {secHeading !== '' && <h3 className={styles.secHeading}>{secHeading}</h3>}
           {paras[0] !== '' && paras.map((para, index) => <p key={index} style={{ fontSize: "smaller" }}>{para}</p>)}
@@ -16,7 +16,7 @@ const Featurebox = ({ secHeading, pHeading, paras, image, reverse, points }) => 
           </>
           }
         </div>
-        <div className={`right w-${points.length !== 0 ? '75' : '100'} `}>
+        <div className={` ${styles.right} ${points.length !== 0 ? styles.half : styles.full} `}>
           <img src={image} alt="frame" className='img-fluid' />
         </div>
       </div>

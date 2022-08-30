@@ -7,13 +7,13 @@ const AboutUs = () => {
     return (
         <>
             <div className={`container ${styles.mainContainer} `}>
-                <div className="left w-75 d-flex flex-column gap-3 px-3">
+                <div className={` d-flex flex-column gap-3 px-3 ${styles.left} `}>
                     <h3 className={styles.pHeading}>About Us</h3>
                     <p className={styles.smallpara}>Based in London, Red Fire Safety Services are a leading supplier in the Design, Installation, Commissioning, Servicing and Routine Maintenance of Fire, Products, Accessories and Systems.</p>
                     <p className={styles.smallpara}>We hold BAFE, ISO and Door Check accreditations as well as being members of the Fire Industry Association, Fire Protection Association and Federation of Small Businesses. Our engineers are industry approved and undertake regular refresher training & are constantly assessed to ensure we provide the best possible services.</p>
                     <p className={styles.smallpara}>We have just over 18 years’ experience in the industry, and our dedicated team has built up a trusting customer base with our progressive commitment to quality and service levels. Our customers are referred to as ‘partners’ as we work to a strategy maintaining compliance levels across all disciplines. </p>
                 </div>
-                <div className="right w-75 ">
+                <div className={styles.right}>
                     <img src='/Images/About.png' alt="frame" className='img-fluid' />
                 </div>
             </div>

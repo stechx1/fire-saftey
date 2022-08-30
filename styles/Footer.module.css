@@ -1,12 +1,29 @@
 .logosContainer{
-    display: flex;
+    /* display: flex; */
     background: #C32128;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 40px;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .footer{
     background: #C32128;
     padding: 73px 0;
+}
+.navs{
+    gap:20%
+}
+@media(max-width:575px){
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap: 43px;
+    }
+}
+
+@media(max-width:506px){
+    .navs{
+        flex-direction: column;
+        gap: 43px;
+    }
 }

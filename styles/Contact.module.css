@@ -14,3 +14,9 @@ margin: 0;
 .FeaturesHeading{
     font-size: small;
 }
+
+@media(max-width:768px){
+    .imgContainer{
+        flex-direction: column;
+    }
+}

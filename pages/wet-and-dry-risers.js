@@ -31,7 +31,7 @@ const WetAndDryRisers = () => {
                 <Featurebox reverse={false} secHeading="" pHeading="Annually" paras={['Every 12 months, all dry riser installations must undergo and pass an in-depth test. ', 'A physical test of the dry riser installation is conducted as part of this annual dry riser test.  Wet pressure tests (hydraulic pressure tests) are part of this process. A fire service approved hose and water pump are used to fill the system with water to a pressure of 12 bar (175psi) for a minimum of 15 minutes, testing for leaks.', 'In the event that the dry riser leaks, our engineers perform an initial air pressure test to reduce the risk of flooding. We test all valves, washers, seals, inlet and outlet valves, along with the dry riser cabinets and signage. ']} points={[]} image="/Images/annually.jpg" />
             </div>
             <div className=' pt-1 container ' style={{ paddingRight: '15%', fontSize: '14px' }}>
-                <p > <p>In the aftermath of the test, the dry riser system is drained and outlet valves are closed and secured with padlocks and straps. Lastly, the inlet breeching cabinet is closed and locked. </p></p>
+                <p>In the aftermath of the test, the dry riser system is drained and outlet valves are closed and secured with padlocks and straps. Lastly, the inlet breeching cabinet is closed and locked. </p>
                 <p >We can perform tests on your Dry or Wet riser installation to ensure it complies with British Standards and relevant building regulations.</p>
             </div>
             <div className=' pt-5 container text-center ' style={{ fontSize: '14px' }}>

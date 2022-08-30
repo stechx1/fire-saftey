@@ -6,7 +6,7 @@ const FireAlarmServices = () => {
   return (
     <>
       <div className={`container ${styles.mainContainer} `}>
-        <div className="left w-75 d-flex flex-column gap-3 px-3">
+        <div className={`${styles.left}  d-flex flex-column gap-3 px-3`}>
           <h3 className={styles.pHeading}>Fire Alarm Servicing, <br /> Installation, Design & <br /> Maintenance </h3>
           <p className={styles.smallpara}>In order to ensure fire safety, fire alarms must be maintained. Preventing fire is the most important aspect of fire protection. The automatic fire detection system you choose should, however, enable you to detect and manage a fire as soon as it breaks out at your premises, in order to help you manage the developing emergency situation as soon as possible. As a result, people may be able to evacuate your premises safely. </p>
           <p className={styles.smallpara}>To comply with current legal requirements, fire detection systems and devices need to be routinely serviced and maintained by a competent company. For fire alarms to be effective in saving lives and property, they must be maintained regularly. Maintaining systems regularly will ensure they operate correctly and can prevent costly repairs in the future. Our engineers have extensive experience installing and maintaining fire alarm systems. </p>

@@ -38,7 +38,7 @@ export default function Home() {
             </div>
           </div>
         </div> */}
-        <div className=' d-flex justify-content-between  py-5'>
+        <div className={` ${styles.FeatureContainer} d-flex justify-content-between  py-5`}>
           <div className="d-flex flex-column align-items-center text-center gap-3 px-5">
             <img src="/Images/Features/Fire assessment 1.png" alt="Fire1" className='img-fluid' width={60} height={90} />
             <span className={styles.FeaturesHeading}>Fire Door Inspection & <br /> Maintenance</span>

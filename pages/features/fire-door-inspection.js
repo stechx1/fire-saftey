@@ -22,12 +22,12 @@ const FireDoorInspection = () => {
             </div>
 
             <div className="pt-5">
-                <Featurebox secHeading="" pHeading="Qualified Door Check Enabled Inspectors " paras={['All our fire door inspectors are (NAFDI) National Association of  Fire Door Inspectors (NAFDI) certified Engineers. This gives tenants, building managers and owners the peace of mind that the fire doors within their property have been competently checked and that any remedial actions needed to meet the requirements of BS476 have been highlighted. ', '']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+                <Featurebox secHeading="" pHeading="Qualified Door Check Enabled Inspectors " paras={['All our fire door inspectors are (NAFDI) National Association of  Fire Door Inspectors (NAFDI) certified Engineers. This gives tenants, building managers and owners the peace of mind that the fire doors within their property have been competently checked and that any remedial actions needed to meet the requirements of BS476 have been highlighted. ', '']} points={[]} image="/Images/iStock-513116744.jpeg" />
 
             </div>
 
             <div className="pt-5">
-                <Featurebox reverse={true} secHeading="" pHeading="Fire Door Inspection Report " paras={['Following the fire door inspection you will receive a detailed report which itemises the pass/fail rating for each door based on required criteria. The report also includes a full list of any remedial actions needed to bring the doors up to the necessary standard. ', '']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+                <Featurebox reverse={true} secHeading="" pHeading="Fire Door Inspection Report " paras={['Following the fire door inspection you will receive a detailed report which itemises the pass/fail rating for each door based on required criteria. The report also includes a full list of any remedial actions needed to bring the doors up to the necessary standard. ', '']} points={[]} image="/Images/checks.jpg" />
 
             </div>
 

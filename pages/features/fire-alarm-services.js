@@ -17,7 +17,7 @@ const FireAlarmServices = () => {
       </div>
 
       <div className="pt-5">
-        <Featurebox secHeading="" pHeading="Our Maintenance Programme" paras={['FIA/FPA-certified and FIA/FPA-trained, Red Fire Safety provides a reliable, timely and friendly service for every job without compromising on quality. You can also take advantage of additional services, like weekly fire alarm testing, while receiving a free no-obligation consultation.', 'Every one of our maintenance packages is custom-designed to suit your business or property needs; we will listen to your requirements and provide you with industry-leading service, unparalleled by any other. ']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+        <Featurebox secHeading="" pHeading="Our Maintenance Programme" paras={['FIA/FPA-certified and FIA/FPA-trained, Red Fire Safety provides a reliable, timely and friendly service for every job without compromising on quality. You can also take advantage of additional services, like weekly fire alarm testing, while receiving a free no-obligation consultation.', 'Every one of our maintenance packages is custom-designed to suit your business or property needs; we will listen to your requirements and provide you with industry-leading service, unparalleled by any other. ']} points={[]} image="/Images/iStock-183893662.jpeg" />
       </div>
 
       <div className="pt-5">

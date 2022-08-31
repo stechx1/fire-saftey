@@ -16,7 +16,7 @@ const ResponsiblePersonAndDuties = () => {
                 <Featurebox secHeading="The ‘responsible person’ is required to:" pHeading="" paras={[]} image="/Images/FeatureBox/Rectangle 2.png" points={['Carry out a Fire Risk Assessment', 'Provide and maintain general fire precautions to the extent that is appropriate', 'Monitor and review the Risk Assessment and revise as appropriate', 'Inform staff and/or their representative of the identified risks', 'Plan for an emergency', 'Provide staff information, instruction and training', 'Nominate persons to assist', 'Cooperate and coordinate with other ‘responsible persons’ in the building where necessary']} />
             </div>
             <div className="pt-5">
-                <Featurebox secHeading="Other areas for consideration" pHeading="" paras={[]} image="/Images/FeatureBox/Rectangle 2.png" reverse={true} points={['Means For Detecting & Giving Warning in case of fire', 'Means of Escape & Emergency Lighting', 'Fire Safety Signs', 'Firefighting Equipment', 'Prevention of false automatic fire alarms']} />
+                <Featurebox secHeading="Other areas for consideration" pHeading="" paras={[]} image="/Images/iStock-1097673712.jpeg" reverse={true} points={['Means For Detecting & Giving Warning in case of fire', 'Means of Escape & Emergency Lighting', 'Fire Safety Signs', 'Firefighting Equipment', 'Prevention of false automatic fire alarms']} />
             </div>
 
             <div className={` pt-5 d-flex flex-column gap-3 ${styles.support} `}>

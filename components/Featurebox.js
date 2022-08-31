@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/FeatureBox.module.css'
-const Featurebox = ({ secHeading, pHeading, paras, image, reverse, points }) => {
+const Featurebox = ({ secHeading, pHeading, paras, image, reverse, points, video }) => {
   return (
     <>
       <div className={`container ${reverse && 'flex-xl-row-reverse flex-xxl-row-reverse'} ${styles.mainContainer} `}>
@@ -17,7 +17,8 @@ const Featurebox = ({ secHeading, pHeading, paras, image, reverse, points }) => 
           }
         </div>
         <div className={` ${styles.right} ${points.length !== 0 ? styles.half : styles.full} `}>
-          <img src={image} alt="frame" className='img-fluid' />
+          {image !== '' ? <img src={image} alt="frame" className='img-fluid' /> : <video src={video} autoPlay loop className='img-fluid'>
+      </video>}
         </div>
       </div>
 

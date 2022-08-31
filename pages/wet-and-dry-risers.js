@@ -16,7 +16,7 @@ const WetAndDryRisers = () => {
                     <p className={headingStyles.smallpara}>Our services include all the necessary dry riser testing, both annual pressure testing to 12 Bar as dictated by BS9990 and a 6 monthly visual Inspection. </p>
                 </div>
                 <div className="right w-100 d-flex justify-content-center align-items-center ">
-                    <img src='/Images/FeatureBox/Rectangle 2.png' alt="Fire Stopping" className='img-fluid' />
+                    <img src='/Images/dry wet riser .jpeg' alt="Fire Stopping" className='img-fluid' />
                 </div>
             </div>
             <div className={` pt-5 d-flex flex-column gap-3 ${headingStyles.support} `}>
@@ -25,7 +25,7 @@ const WetAndDryRisers = () => {
             </div>
 
             <div className="pt-5">
-                <Featurebox reverse={true} secHeading="" pHeading="Every 6 Months" paras={['It is necessary to visually inspect dry risers every 6 months to ensure there are no obvious signs of damage or vandalism. In the event that any parts are damaged or missing, it is important to document this and to repair or replace them as soon as possible. ', '']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+                <Featurebox reverse={true} secHeading="" pHeading="Every 6 Months" paras={['It is necessary to visually inspect dry risers every 6 months to ensure there are no obvious signs of damage or vandalism. In the event that any parts are damaged or missing, it is important to document this and to repair or replace them as soon as possible. ', '']} points={[]} image="/Images/half-year.jpg" />
             </div>
             <div className="pt-5">
                 <Featurebox reverse={false} secHeading="" pHeading="Annually" paras={['Every 12 months, all dry riser installations must undergo and pass an in-depth test. ', 'A physical test of the dry riser installation is conducted as part of this annual dry riser test.  Wet pressure tests (hydraulic pressure tests) are part of this process. A fire service approved hose and water pump are used to fill the system with water to a pressure of 12 bar (175psi) for a minimum of 15 minutes, testing for leaks.', 'In the event that the dry riser leaks, our engineers perform an initial air pressure test to reduce the risk of flooding. We test all valves, washers, seals, inlet and outlet valves, along with the dry riser cabinets and signage. ']} points={[]} image="/Images/annually.jpg" />

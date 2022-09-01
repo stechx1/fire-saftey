@@ -15,7 +15,7 @@ export default function Home() {
         <button className={styles.primaryButton}>View Our Services</button>
       </div>
 
-      <Featurebox points={[]} secHeading="Nothing Is more important than the health and safety of our clients and their customers" paras={['Red Fire Safety is an established service partner, consultancy, and training provider helping a variety of organizations ensure they stay compliant with fire safety legislation', 'We help to provide safe working or living environments for our clients, which is a commitment shared by all Red Fire Staff.']} image="" video="/Videos/home-page.mp4" />
+      <Featurebox points={[]} secHeading="Nothing Is more important than the health and safety of our clients and their customers" paras={['Red Fire Safety is an established service partner, consultancy, and training provider helping a variety of organizations ensure they stay compliant with fire safety legislation', 'We help to provide safe working or living environments for our clients, which is a commitment shared by all Red Fire Staff.']} image="" video="/Videos/home-page-video1.mp4" />
 
       <div className="container pt-5">
         <h1 className='text-center fw-bold fs-2'>Featuers</h1>
@@ -36,6 +36,13 @@ export default function Home() {
             <a className={styles.FeaturesLink} onClick={()=>{router.push('/features/fire-extinguisher-services')}}> Find out more</a>
           </div>
         </div>
+      </div>
+
+      
+
+      <div className='container p-5'>
+        <video src='/Videos/home-page.mp4' autoPlay loop className='img-fluid'></video>
+
       </div>
 
       <div className="container pt-5">

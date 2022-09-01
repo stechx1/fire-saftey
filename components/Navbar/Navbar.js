@@ -6,9 +6,9 @@ const Navbar = () => {
     const router = useRouter();
     return (
         <>
-        <div className="container d-flex justify-content-between py-3 px-5">
+        <div className="container d-flex justify-content-between  py-3 px-5">
           <img src="/Images/Red box logo.svg" alt="logo" className="img-fluid" width={150} />
-          <div className='d-flex flex-column'>
+          <div className='d-md-flex flex-column d-none'>
             <span>Call the team today</span>
             <span>Mon - Fri 9am - 5pm</span>
             <span style={{color:'#e32213'}}>0808 168 7000</span>

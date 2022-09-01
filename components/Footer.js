@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useRouter } from 'next/router'
 import React from 'react'
 import styles from '../styles/Footer.module.css'
@@ -42,14 +43,14 @@ const Footer = () => {
                                 <span style={{cursor:'pointer'}} onClick={()=>{router.push('/contact')}}>Contact Us</span>
                             </div>
                             <div className='d-flex flex-column gap-3'>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Regulations</span>
+                                <span style={{cursor:'pointer'}}>Responsible Persons</span>
+                                <span style={{cursor:'pointer'}}>Risk Assessment</span>
                             </div>
                             <div className='d-flex flex-column gap-3'>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
-                                <span style={{cursor:'pointer'}}>Site Map</span>
+                                <span style={{cursor:'pointer'}}>Sprinkler Servicing</span>
+                                <span style={{cursor:'pointer'}}>Fire Stopping</span>
+                                <span style={{cursor:'pointer'}}>Emergency Lightning</span>
                             </div>
                         </div>
                         <div className="col-md-3 col-sm-6  d-flex flex-column gap-1 ">

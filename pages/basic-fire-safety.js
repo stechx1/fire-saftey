@@ -27,7 +27,7 @@ const BasicFireSafety = () => {
                 <p className={`${headingStyles.smallpara} py-2 `}> </p>
                 
             </div>
-                <div  style={{padding:'23px 125px'}}>
+                <div >
                 <Featurebox secHeading="" pHeading="We currently offer the courses:" paras={[]} points={['Basic Fire Protection Training', 'Fire Warden/Marshal Instruction', 'Fire Warden/Marshal Refresher', 'Emergency First Aid at Work', 'First Aid for Appointed Persons']} image="/SVGs/Basic Fire Training.svg" />
                 </div>
 

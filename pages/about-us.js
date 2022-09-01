@@ -27,10 +27,10 @@ const AboutUs = () => {
                 <Featurebox secHeading="" pHeading="Maintainence" paras={['Our preventative maintenance service aims to mitigate any faults or problems before they occur. All systems are regularly checked, and records are kept of all visits and work.', '']} image="/Images/iStock-183893662.jpeg" points={[]} />
             </div>
             <div className='pt-5'>
-                <Featurebox secHeading="" pHeading="System" paras={['Providing a multi-solution for both commercial and residential customers, our Planning & Scheduling system has transformed our job management and communication further to ensure our customers are kept informed throughout the process.', '']} image="/Images/iStock-930508614.jpeg" reverse={true}  points={[]} />
+                <Featurebox secHeading="" pHeading="System" paras={['Providing a multi-solution for both commercial and residential customers, our Planning & Scheduling system has transformed our job management and communication further to ensure our customers are kept informed throughout the process.', '']} image="/Images/iStock-930508614.jpeg" reverse={true} points={[]} />
             </div>
             <div className='pt-5'>
-                <Featurebox secHeading="" pHeading="Accreditations & Memberships " paras={["Red Fire Safety are proud to have the following accreditations: ", 'ISO 9001 - The international standard that specifies requirements for a quality management system (QMS). Red Fire Safety demonstrates the ability to consistently provide products and services that meet customer and regulatory requirements.', 'FIA MEMBERSHIP - Membership in the FIA is only available to companies with Third Party Certification (TPC). ', 'FPA MEMBERSHIP - As a member, you can access an array of technical guidance, advice, and guidance whenever you need it, demonstrating your professional interest in fire safety. ', 'BAFE - incorporates high quality standards and best working practices for services in the fire safety industry as part of a comprehensive competency framework.', 'NAFDI - Certified by an association recognized by the industry. ']} image="/Images/FeatureBox/Rectangle 2.png" points={[]}  />
+                <Featurebox secHeading="" pHeading="Accreditations & Memberships " paras={["Red Fire Safety are proud to have the following accreditations: ", 'ISO 9001 - The international standard that specifies requirements for a quality management system (QMS). Red Fire Safety demonstrates the ability to consistently provide products and services that meet customer and regulatory requirements.', 'FIA MEMBERSHIP - Membership in the FIA is only available to companies with Third Party Certification (TPC). ', 'FPA MEMBERSHIP - As a member, you can access an array of technical guidance, advice, and guidance whenever you need it, demonstrating your professional interest in fire safety. ', 'BAFE - incorporates high quality standards and best working practices for services in the fire safety industry as part of a comprehensive competency framework.', 'NAFDI - Certified by an association recognized by the industry. ']} image="/Images/FeatureBox/Rectangle 2.png" points={[]} />
             </div>
 
             <div className={` pt-5 d-flex flex-column gap-3 ${styles.support} `}>
@@ -40,7 +40,7 @@ const AboutUs = () => {
             </div>
 
             <div className="pt-5">
-            <Anniversary/>
+                <Anniversary />
 
             </div>
         </>

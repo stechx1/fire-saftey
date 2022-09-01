@@ -1,6 +1,5 @@
 import React from 'react'
 import Anniversary from '../components/Anniversary'
-import Featurebox from '../components/Featurebox'
 import headingStyles from './features/Feature.module.css'
 const EvacuationPlanAndDrills = () => {
     return (
@@ -15,7 +14,7 @@ const EvacuationPlanAndDrills = () => {
                     <p className={headingStyles.smallpara}>Though prevention is always best, you are also required by law to make a detailed fire emergency plan so your people can keep themselves and members of the public out of danger.</p>
                 </div>
                 <div className="right w-100 d-flex justify-content-center align-items-center ">
-                    <img src='/Images/FeatureBox/Rectangle 2.png' alt="Fire Stopping" className='img-fluid' />
+                    <img src='/SVGs/Evacuation plans.svg' alt="Fire Stopping" className='img-fluid' style={{width:'60%'}} />
                 </div>
             </div>
 

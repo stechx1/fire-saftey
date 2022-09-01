@@ -6,11 +6,18 @@ import headingStyles from './features/Feature.module.css'
 const EmergencyLighting = () => {
   return (
     <>
-      <div className=' pt-5 container ' style={{ paddingRight: '15%', fontSize: '14px' }}>
-        <h1 className={` ${headingStyles.pHeading} my-3`}>Emergency Lighting Servicing <br /> & Maintenance  </h1>
-        <p >Red Fire Safety tests and maintains all types of Emergency Lighting systems to BS5266.  </p>
-        <p >Emergency lighting is required in both commercial and residential developments to provide lighting to facilitate escape in the event of a power failure, if it fails to operate correctly it could leave you in the dark.</p>
+
+      <div className={`container ${headingStyles.mainContainer} `}>
+        <div className={`${headingStyles.left}  d-flex flex-column gap-3 px-3`}>
+          <h1 className={headingStyles.pHeading}>Emergency Lighting Servicing <br /> & Maintenance </h1>
+          <p className={headingStyles.smallpara}>Red Fire Safety tests and maintains all types of Emergency Lighting systems to BS5266.  </p>
+          <p className={headingStyles.smallpara}>Emergency lighting is required in both commercial and residential developments to provide lighting to facilitate escape in the event of a power failure, if it fails to operate correctly it could leave you in the dark.</p>
+        </div>
+        <div className="right w-100 d-flex justify-content-center align-items-center ">
+          <img src='/SVGs/Emergency Lighting Servicing _ Maintenance.svg' alt="Fire Alarm Servicing" className='img-fluid' style={{ width: '60%' }} />
+        </div>
       </div>
+
       <div className="pt-5">
         <Featurebox secHeading="" pHeading="What is emergency lighting?  " paras={['One of the most important systems for protecting people on your premises is emergency lighting. When there is a power outage, these lights are installed to illuminate areas that are high traffic or at risk (for example, escape routes, high-risk areas, signage and fire safety equipment).', 'In the event of a power cut, the emergency lighting is designed to automatically illuminate ensuring these at-risk areas are well illuminated allowing evacuation of the building, ensuring they work as required when needed most.', 'Keeping the building occupants safe is obviously a high priority, so in an emergency, we make sure that you have an emergency lighting system that will not fail by regularly maintaining your systems in compliance with BS5266. ']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
       </div>

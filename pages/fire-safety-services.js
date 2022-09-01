@@ -6,11 +6,17 @@ import headingStyles from '../pages/features/Feature.module.css'
 const FireSafetyServices = () => {
     return (
         <>
-            <div className=' pt-5 container ' style={{ paddingRight: '15%', fontSize: '14px' }}>
 
-                <h3 className={headingStyles.pHeading}>Fire Safety Services</h3>
-                <p className={headingStyles.smallpara}>We provide cost effective fire safety services and solutions in fire protection to HMOs, Commercial and Residential settings. Whatever your fire safety requirements are; e.g fire training, fire risk assessments and or installed fire equipment maintenance we can assist you in finding a solution that meets your budget to ensure compliance with current fire legislation and reduce the risk of fire.</p>
+            <div className={`container ${headingStyles.mainContainer} `}>
+                <div className={`${headingStyles.left}  d-flex flex-column gap-3 px-3`}>
+                    <h1 className={headingStyles.pHeading}>Fire Safety Services</h1>
+                    <p className={headingStyles.smallpara}>We provide cost effective fire safety services and solutions in fire protection to HMOs, Commercial and Residential settings. Whatever your fire safety requirements are; e.g fire training, fire risk assessments and or installed fire equipment maintenance we can assist you in finding a solution that meets your budget to ensure compliance with current fire legislation and reduce the risk of fire.</p>
+                </div>
+                <div className="right w-100 d-flex justify-content-center align-items-center ">
+                    <img src='/SVGs/Fire Saftey Services.svg' alt="Fire Alarm Servicing" className='img-fluid' style={{ width: '40%' }} />
+                </div>
             </div>
+
             <div className="pt-5">
                 <Featurebox reverse={true} secHeading="" pHeading="Event Fire Safety " paras={['There is a separate guide in the Regulatory Reform (Fire Safety) Order 2005, about outdoor events and venues. We can take away some of your organisational worry by looking after this side of your event. We do this by:']} points={['Carrying out a Fire Risk Assessment at the venue ', 'Providing any fire safety equipment your event may require on either a hire or purchase basis', 'Providing Fire Awareness Training your staff or volunteers ', 'Providing a professional team of Fire Marshalls to attend your event ']} image="/Images/FeatureBox/Rectangle 2.png" />
             </div>

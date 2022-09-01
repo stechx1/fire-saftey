@@ -9,19 +9,25 @@ const FireSafetySignage = () => {
             <div className=' pt-5 container text-center '>
                 <h1 className={` ${headingStyles.pHeading} my-3`}>Fire Safety Signage   </h1>
             </div>
-            <div className=' pt-5 container ' style={{ paddingRight: '15%', fontSize: '14px' }}>
-                <h1 className={` ${headingStyles.secHeading} my-3`}>The Law and Their Meaning </h1>
-                <p className={headingStyles.smallpara}>We all recognize Fire Safety Signs: a green stick man running through a door, a white hand pressing an alarm, a blue fire action checklist. In spite of the fact that we are surrounded by them every day, how well do we know what they mean? </p>
-                <p className={headingStyles.smallpara}>And, for owners and managers of commercial, HMO and industrial properties, are you aware of the regulations governing safety signs and, as such, which signs are required in your environment? </p>
-                <p className={headingStyles.smallpara}>The Health and Safety (Safety Signs and Signals) Regulations 1996 define a fire safety sign as an illuminated sign or acoustic signal that provides information on escape routes and emergency exits; provides information on the identification or location of fire fighting equipment or gives warning in case of fire. </p>
-                <p className={headingStyles.smallpara}>According to British and International standards, fire safety signs can be categorised into 8 main groups:</p>
+
+            <div className={`container ${headingStyles.mainContainer} `}>
+                <div className={`${headingStyles.left}  d-flex flex-column gap-3 px-3`}>
+                    <h1 className={` ${headingStyles.secHeading} my-3`}>The Law and Their Meaning </h1>
+                    <p className={headingStyles.smallpara}>We all recognize Fire Safety Signs: a green stick man running through a door, a white hand pressing an alarm, a blue fire action checklist. In spite of the fact that we are surrounded by them every day, how well do we know what they mean? </p>
+                    <p className={headingStyles.smallpara}>And, for owners and managers of commercial, HMO and industrial properties, are you aware of the regulations governing safety signs and, as such, which signs are required in your environment? </p>
+                    <p className={headingStyles.smallpara}>The Health and Safety (Safety Signs and Signals) Regulations 1996 define a fire safety sign as an illuminated sign or acoustic signal that provides information on escape routes and emergency exits; provides information on the identification or location of fire fighting equipment or gives warning in case of fire. </p>
+                    <p className={headingStyles.smallpara}>According to British and International standards, fire safety signs can be categorised into 8 main groups:</p>
+                </div>
+                <div className="right w-100 d-flex justify-content-center align-items-center ">
+                    <img src='/SVGs/Photoluminescent Fire signage.svg' alt="Fire Alarm Servicing" className='img-fluid' style={{ width: '40%' }} />
+                </div>
             </div>
 
             <div className="pt-5">
-                <Featurebox secHeading="1. Escape route location signs " pHeading="" paras={['Escape route location signs are signs that identify the direction of travel to escape or exit a building. They indicate doorways and openings that will lead you to a place of safety, in order to make an evacuation as quick, simple and efficient as possible.', 'These signs are green in colour that, as a general rule for all fire safety signage, symbolises emergency escape, first aid and no danger.']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+                <Featurebox secHeading="1. Escape route location signs " pHeading="" paras={['Escape route location signs are signs that identify the direction of travel to escape or exit a building. They indicate doorways and openings that will lead you to a place of safety, in order to make an evacuation as quick, simple and efficient as possible.', 'These signs are green in colour that, as a general rule for all fire safety signage, symbolises emergency escape, first aid and no danger.']} points={[]} image="/Images/escape-route.jpg" />
             </div>
             <div className="pt-5">
-                <Featurebox secHeading="2. Emergency exit and emergency door release signs " pHeading="" paras={['Doors featuring security devices, such as push to release opening mechanisms and sliding mechanisms, and also doors which are specifically used for emergency escape, should all use safety signs to demonstrate their opening instructions. ', 'Again in green, to demonstrate emergency escape and no danger, they have been developed to reduce evacuation time and make the process as safe and straightforward as possible. ']} reverse={true} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />
+                <Featurebox secHeading="2. Emergency exit and emergency door release signs " pHeading="" paras={['Doors featuring security devices, such as push to release opening mechanisms and sliding mechanisms, and also doors which are specifically used for emergency escape, should all use safety signs to demonstrate their opening instructions. ', 'Again in green, to demonstrate emergency escape and no danger, they have been developed to reduce evacuation time and make the process as safe and straightforward as possible. ']} reverse={true} points={[]} image="/Images/emergency ligtning page.jpeg" />
             </div>
             <div className="pt-5">
                 <Featurebox secHeading="3. Safe condition signs  " pHeading="" paras={['Safe condition signs come under the Standard BS 5499 and are used to clearly mark and distinguish first aid equipment and its location, as well as emergency instructions for people with special needs.  Examples of safe condition signs include the well-known first aid sign and also more specific signs, such as emergency eye wash.', 'These signs are green to demonstrate first aid and no danger and should be prominently displayed for optimum safety. ']} points={[]} image="/Images/FeatureBox/Rectangle 2.png" />

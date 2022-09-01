@@ -5,8 +5,9 @@ import headingStyles from './features/Feature.module.css'
 const FireStopping = () => {
     return (
         <>
-            <div className='text-center pt-5'>
+            <div className='text-center pt-5 '>
                 <h3 className={headingStyles.pHeading}>Fire Stopping & Compartmentation Survey </h3>
+
             </div>
             <div className={`container ${headingStyles.mainContainer} pt-5 `}>
                 <div className="left w-75 d-flex flex-column gap-3 px-3">
@@ -14,7 +15,7 @@ const FireStopping = () => {
                     <p className={headingStyles.smallpara}>It is possible for a fire to spread rapidly throughout the structure of a building without the proper preventative measures being taken, putting many lives at risk. It may be possible to prevent an unfortunate fire outbreak by getting a fire stopping survey from Red Fire Safety. </p>
                 </div>
                 <div className="right w-100 d-flex justify-content-center align-items-center ">
-                    <img src='/Images/FeatureBox/Rectangle 2.png' alt="Fire Stopping" className='img-fluid' />
+                    <img src="/SVGs/Fire Stopping - Compartmentation.svg" alt="icon" className='img-fluid' style={{ width: '40%' }} />
                 </div>
             </div>
 

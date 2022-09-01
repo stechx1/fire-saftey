@@ -13,7 +13,7 @@ const SprinklerServicing = () => {
                     <p className={styles.smallpara}>Red Fire Safety offers comprehensive service and maintenance for sprinkler systems. We can inspect, repair and maintain all types of sprinkler systems, even if we didn’t fit them originally. </p>
                 </div>
                 <div className="right w-100 d-flex justify-content-center align-items-center ">
-                    <img src='/Images/FeatureBox/Rectangle 2.png' alt="Fire Alarm Servicing" className='img-fluid' />
+                    <img src='/SVGs/Sprinkles servicing.svg' alt="Fire Alarm Servicing" className='img-fluid' style={{width:'40%'}} />
                 </div>
             </div>
 

@@ -6,12 +6,18 @@ import headingStyles from './features/Feature.module.css'
 const FireStrategyPlanning = () => {
     return (
         <>
-            <div className=' pt-5 container ' style={{ paddingRight: '15%', fontSize: '14px' }}>
-                <h1 className={` ${headingStyles.pHeading} my-3`}>Fire Strategy Planning & Consultancy  </h1>
-                <p className={headingStyles.smallpara}>The purpose of a fire strategy is to give an overview of how fire can affect a building and a business. The document outlines fire safety objectives and measures that may be required if they become necessary. </p>
-                <p className={headingStyles.smallpara}>Typically, a fire safety strategy is developed during the design phase of a new or modified building and continues throughout the construction phase. </p>
-                <p className={headingStyles.smallpara}>Our team at Red Fire Safety ensures a thorough understanding of the project aims and objectives to provide the most efficient, cost-effective design solutions in fire safety management. </p>
-                <p className={headingStyles.smallpara}>Alternatively, a retrospective fire strategy can highlight and address shortcomings in a fire risk assessment by reviewing the existing fire safety provisions in an existing building. An organization&apos;s fire safety policy and operational requirements are taken into account when developing its fire strategy. </p>
+
+            <div className={`container ${headingStyles.mainContainer} `}>
+                <div className={`${headingStyles.left}  d-flex flex-column gap-1 px-3`}>
+                    <h1 className={` ${headingStyles.pHeading} my-3`}>Fire Strategy Planning & Consultancy  </h1>
+                    <p className={headingStyles.smallpara}>The purpose of a fire strategy is to give an overview of how fire can affect a building and a business. The document outlines fire safety objectives and measures that may be required if they become necessary. </p>
+                    <p className={headingStyles.smallpara}>Typically, a fire safety strategy is developed during the design phase of a new or modified building and continues throughout the construction phase. </p>
+                    <p className={headingStyles.smallpara}>Our team at Red Fire Safety ensures a thorough understanding of the project aims and objectives to provide the most efficient, cost-effective design solutions in fire safety management. </p>
+                    <p className={headingStyles.smallpara}>Alternatively, a retrospective fire strategy can highlight and address shortcomings in a fire risk assessment by reviewing the existing fire safety provisions in an existing building. An organization&apos;s fire safety policy and operational requirements are taken into account when developing its fire strategy. </p>
+                </div>
+                <div className="right w-100 d-flex justify-content-center align-items-center ">
+                    <img src='/SVGs/Fire Strategy Planning.svg' alt="Fire Alarm Servicing" className='img-fluid' style={{ width: '40%' }} />
+                </div>
             </div>
 
             <div className='text-center mt-5' style={{ padding: '0 15%' }}>
